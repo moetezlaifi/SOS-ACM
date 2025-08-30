@@ -1,7 +1,7 @@
 import './Navbar.css';
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom'; // only for Home
-import { Link as ScrollLink } from 'react-scroll';     // for sections
+import { Link as ScrollLink } from 'react-scroll';     // for section
 import ACMlogo from '../../assets/blanc.png';
 import Enstab from '../../assets/enstablanc.png';
 
