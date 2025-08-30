@@ -1,6 +1,5 @@
 import './troisieme.css';
 import background from '../../assets/back1.png';
-import { Link } from 'react-router-dom';
 
 const LastSemester = () => {
   return (
