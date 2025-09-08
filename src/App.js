@@ -8,6 +8,10 @@ import FirstSemester2 from './pages/2S1/desieme1';
 import SecondSemester2 from './pages/2S2/desieme2';
 import LastSemester from './pages/3S/troisieme';
 import SubjectResources from './pages/Matiere/matiere';
+import Analyse from './1ere annee/S1/Analyse';
+import Algo from './1ere annee/S1/Algo'
+import Fluide from './1ere annee/S1/fluide';
+
 function App() {
   return (
     <Router>
@@ -22,6 +26,9 @@ function App() {
           <Route path="/desieme2" element={<SecondSemester2/>} />
           <Route path="/troisieme" element={<LastSemester/>} />
           <Route path="/matiere" element={<SubjectResources/>} />
+          <Route path="/Analyse" element={<Analyse/>}/>
+          <Route path="/algo" element={<Algo/>}/>
+          <Route path="/fluide" element={<Fluide/>}/>
         </Routes>
       </div>
     </Router>

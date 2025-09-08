@@ -19,10 +19,10 @@ const FirstSemester = () => {
           <h2 className="course-title">MATH-INFO 1</h2>
           <img src={math} alt="math" className="course-icon" />
           <ul className="course-topics">
-            <li><Link to="/matiere">Analyse pour l’ingénieur</Link></li>
-            <li><Link to="/matiere">Probabilités</Link></li>
-            <li><Link to="/matiere">MATLAB</Link></li>
-            <li><Link to="/matiere">Algorithmique et Programmation</Link></li>
+            <li><Link to="/Analyse">Analyse pour l’ingénieur</Link></li>
+            <li><Link to="">Probabilités</Link></li>
+            <li><Link to="/matiere">Python for Data Science</Link></li>
+            <li><Link to="/algo">Algorithmique et Programmation</Link></li>
           </ul>
         </div>
         
@@ -31,7 +31,7 @@ const FirstSemester = () => {
           <img src={phy} alt="phy" className="course-icon" />
           <ul className="course-topics">
             <li><Link to="/matiere">Physique pour l’ingénieur</Link></li>
-            <li><Link to="/matiere">Mecanique des fluides</Link></li>
+            <li><Link to="/fluide">Mecanique des fluides</Link></li>
             <li><Link to="/matiere">Semi conducteurs</Link></li>
           </ul>
         </div>
@@ -47,7 +47,7 @@ const FirstSemester = () => {
         </div>
 
         <div className="course-card">
-          <h2 className="course-title">SOC.ECO</h2>
+          <h2 className="course-title">SOC.ECO</h2> 
           <img src={tech} alt="phy" className="course-icon" />
           <ul className="course-topics">
             <Link to="/matiere"><li>Anglais 1</li></Link>
